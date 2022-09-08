@@ -1,0 +1,25 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+D:\GNAT\bin\CW2022\cw22.gpr
+20220502191534 ca07341eaa362a504d6ef8cdae01eb00
+[BOUND OBJECT FILES]
+D:\GNAT\bin\CW2022\obj\battery.o
+D:\GNAT\bin\CW2022\obj\carassistance.o
+D:\GNAT\bin\CW2022\obj\ogear.o
+D:\GNAT\bin\CW2022\obj\main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-LD:\GNAT\bin\CW2022\obj\
+-LD:\GNAT\bin\CW2022\obj\
+-LD:/gnat/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
+-static
+-static-libgcc
+D:/gnat/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnarl.a
+D:/gnat/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnat.a
+-Xlinker
+--stack=0x200000,0x1000
+-mthreads

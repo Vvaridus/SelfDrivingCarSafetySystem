@@ -1,0 +1,70 @@
+'2022-05-05T13:25:04.982000':
+  category: GNATprove
+  files:
+  - D:\GNAT\bin\CW2022\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    Summary logged in D:\GNAT\bin\CW2022\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2022-05-05T13:25:04.982000'
+'2022-05-05T13:26:42.059000':
+  category: GNATprove
+  files:
+  - D:\GNAT\bin\CW2022\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    Summary logged in D:\GNAT\bin\CW2022\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2022-05-05T13:26:42.059000'
+'2022-05-05T13:26:51.192000':
+  category: GNATprove
+  files:
+  - D:\GNAT\bin\CW2022\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    Summary logged in D:\GNAT\bin\CW2022\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2022-05-05T13:26:51.192000'
+'2022-05-05T13:34:31.731000':
+  category: GNATprove
+  files:
+  - D:\GNAT\bin\CW2022\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    Summary logged in D:\GNAT\bin\CW2022\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2022-05-05T13:34:31.731000'
+'2022-05-05T13:34:43.606000':
+  category: GNATprove
+  files:
+  - D:\GNAT\bin\CW2022\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    Summary logged in D:\GNAT\bin\CW2022\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2022-05-05T13:34:43.606000'

@@ -1,0 +1,157 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_ENUMERATION_MAPS
+RV NO_IO
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+
+U carassistance%b	carassistance.adb	95b00611 NE OO PK IL
+W ada%s			ada.ads			ada.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.concat_3%s	s-conca3.adb		s-conca3.ali
+Z system.img_int%s	s-imgint.ads		s-imgint.ali
+
+U carassistance%s	carassistance.ads	778f0409 EE NE OO PK IL
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+
+D ada.ads		20210520051132 76789da1 ada%s
+D a-except.ads		20210520051128 946f3014 ada.exceptions%s
+D a-ioexce.ads		20210520051128 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20210520051130 119b8fb3 ada.streams%s
+D a-string.ads		20210520051130 90ac6797 ada.strings%s
+D a-sttebu.ads		20210520051130 18209c64 ada.strings.text_buffers%s
+D a-stuten.ads		20210520051130 808c40ad ada.strings.utf_encoding%s
+D a-tags.ads		20210520051130 9eaa38c6 ada.tags%s
+D a-textio.ads		20210520051130 aef4d56d ada.text_io%s
+D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
+D carassistance.ads	20220504212550 778f0409 carassistance%s
+D carassistance.adb	20220504141620 4ccbd775 carassistance%b
+D interfac.ads		20210520051132 edec285f interfaces%s
+D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
+D system.ads		20210520051136 2ffa5114 system%s
+D s-conca2.ads		20210520051132 02a0d7d0 system.concat_2%s
+D s-conca3.ads		20210520051132 0b705ca5 system.concat_3%s
+D s-crtl.ads		20210520051132 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210520051132 54135002 system.exception_table%s
+D s-ficobl.ads		20210520051132 078245e4 system.file_control_block%s
+D s-imagei.ads		20210520051134 0d3f86a7 system.image_i%s
+D s-imgint.ads		20210520051134 bdb6f5ec system.img_int%s
+D s-parame.ads		20210520051134 4752c4cb system.parameters%s
+D s-putima.ads		20210520051134 4e095881 system.put_images%s
+D s-secsta.ads		20210520051134 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210520051134 a7318a92 system.soft_links%s
+D s-stache.ads		20210520051134 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210520051134 472fbca8 system.standard_library%s
+D s-stoele.ads		20210520051134 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210520051134 ed88f8fb system.storage_elements%b
+D s-traent.ads		20210520051134 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20210520051134 2b077493 system.unsigned_types%s
+D s-wchcon.ads		20210520051136 1b7d22d2 system.wch_con%s
+D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
+G a e
+G c Z s s [vehicleIP carassistance 12 9 none]
+G c Z s b [checkengine carassistance 25 14 none]
+G c Z s b [checkgear carassistance 27 14 none]
+G c Z s b [checkbatterylevel carassistance 29 14 none]
+G c Z s b [checkcurrentspeed carassistance 31 14 none]
+G c Z s b [checkcollisionfront carassistance 33 14 none]
+G c Z s b [checkcollisionback carassistance 39 14 none]
+G c Z s b [speedlimitchange carassistance 45 14 none]
+G c Z s b [checkdiagmode carassistance 52 14 none]
+G c Z s b [lowchargewarning carassistance 57 14 none]
+G c Z s b [increasespeed carassistance 65 14 none]
+G c Z s b [decreasespeed carassistance 71 14 none]
+G c Z s b [ignition carassistance 80 14 none]
+G c Z s b [changegearneutral carassistance 86 14 none]
+G c Z s b [changegeardrive carassistance 92 14 none]
+G c Z s b [changegearreverse carassistance 98 14 none]
+G c Z s b [changegearparked carassistance 104 14 none]
+G c Z s b [entervehiclediagmode carassistance 111 14 none]
+G c Z s b [exitvehiclediagmode carassistance 117 14 none]
+X 1 ada.ads
+16K9*Ada 20e8 12|1r6 1r23
+X 9 a-textio.ads
+58K13*Text_IO 725e16 12|1w10 1r27
+506U14*Put_Line 12|12s7 25s10 42s10 67s7 78s7 90s7 101s7 113s10 131s10 145s10
+. 164s10
+X 11 carassistance.ads
+1K9*CarAssistance 126l5 126e18 12|3b14 257l5 257t18
+3E9*Engine 3e28 13r23
+3n20*on{3E9} 84r34 12|161r31
+3n24*off{3E9} 13r33 12|234r31
+4E9*Gear 4e46 14r21
+4n18*neutral{4E9} 67r166 73r97 90r32 12|128r148 142r84 179r29
+4n27*drive{4E9} 35r81 96r32 100r97 12|22r73 193r29 205r84
+4n34*rev{4E9} 41r80 94r97 102r32 12|39r72 192r84 206r29
+4n39*parked{4E9} 14r29 67r131 73r62 82r96 108r32 113r31 12|128r118 142r54
+. 160r83 220r29 233r28
+5I9*BatteryCharge<short_short_integer> 15r30
+6I9*Speed<short_short_integer> 16r22 19r27
+7E9*ObjectFoundAtLocation 7e53 17r38
+7n35*none{7E9} 17r63 67r48 12|128r45
+7n41*front{7E9} 35r48 12|22r45
+7n48*back{7E9} 41r48 12|39r45
+8E9*DiagMode 8e30 18r25
+8n22*on{8E9} 115r36 119r35 12|235r33 248r32
+8n26*off{8E9} 18r37 82r35 88r35 94r35 100r35 106r35 121r36 12|160r32 177r32
+. 192r32 205r32 219r32 249r33
+9E9*WarningLight 9e34 20r29
+9n26*on{9E9} 20r45 61r40 12|111r95 112r37 163r37
+9n30*off{9E9} 12|115r37
+12R9*Vehicle 21e14 23r10
+13e7*VehcileEngine{3E9} 84r18 12|78r36 161m14 234m14
+14e7*VehicleGear{4E9} 35r67 41r66 67r116 67r151 73r47 73r82 82r82 90r18 94r82
+. 96r18 100r82 102r18 108r18 113r17 12|12r51 22r59 39r58 128r103 128r133
+. 142r39 142r69 160r69 179m14 192r69 193m14 205r69 206m14 220m14 233r14
+15i7*VehicleBatteryChange{5I9} 59r47 82r116 12|90r47 111r39 114r17 160r98
+. 162r17 164r47
+16i7*VehicleSpeed{6I9} 35r100 37r18 41r97 43r18 47r17 49r18 59r17 67r66 69r18
+. 69r37 73r17 75r18 75r37 82r52 88r52 94r52 100r52 106r52 12|22r87 24m14
+. 39r84 41m14 54r14 55m14 67r40 111r14 128r58 129m14 129r34 131r42 142r14
+. 143m14 143r34 145r42 160r44 177r44 192r44 205r44 219r44
+17e7*VehicleObjectFoundAtLocation{7E9} 35r17 41r17 67r17 12|22r14 25r56 39r14
+. 42r56 128r14
+18e7*VehicleDiagMode{8E9} 82r17 88r17 94r17 100r17 106r17 115r18 119r17 121r18
+. 12|101r39 160r14 177r14 192r14 205r14 219r14 235m14 248r14 249m14
+19i7*VehicleSpeedLimit{6I9} 47r36 49r37 67r85 12|54r33 55r34 128r77
+20e7*VehicleWarningLight{9E9} 61r18 12|111r72 112m14 115m14 163m14
+23r4*Car{12R9} 35r13 35r63 35r96 37r14 41r13 41r62 41r93 43r14 47r13 47r32
+. 49r14 49r33 59r13 59r43 61r14 67r13 67r62 67r81 67r112 67r147 69r14 69r33
+. 73r13 73r43 73r78 75r14 75r33 82r13 82r48 82r78 82r112 84r14 88r13 88r48
+. 90r14 94r13 94r48 94r78 96r14 100r13 100r48 100r78 102r14 106r13 106r48
+. 108r14 113r13 115r14 119r13 121r14 12|12r47 22r10 22r55 22r83 24m10 25r52
+. 39r10 39r54 39r80 41m10 42r52 54r10 54r29 55m10 55r30 67r36 78r32 90r43
+. 101r35 111r10 111r35 111r68 112m10 114r13 115m10 128r10 128r54 128r73 128r99
+. 128r129 129m10 129r30 131r38 142r10 142r35 142r65 143m10 143r30 145r38
+. 160r10 160r40 160r65 160r94 161m10 162r13 163m10 164r43 177r10 177r40 179m10
+. 192r10 192r40 192r65 193m10 205r10 205r40 205r65 206m10 219r10 219r40 220m10
+. 233r10 234m10 235m10 248r10 249m10
+25U14*checkEngine 12|72b14 81l8 81t19
+27U14*checkGear 12|6b14 14l8 14t17
+29U14*checkBatteryLevel 12|84b14 92l8 92t25
+31U14*checkCurrentSpeed 12|61b14 69l8 69t25
+33U14*checkCollisionFront 12|17b14 31l8 31t27
+39U14*checkCollisionBack 12|34b14 47l8 47t26
+45U14*speedLimitChange 12|49b14 58l8 58t24
+52U14*checkDiagMode 12|95b14 103l8 103t21
+57U14*lowChargeWarning 12|106b14 119l8 119t24
+65U14*increaseSpeed 12|123b14 134l8 134t21
+71U14*decreaseSpeed 12|137b14 149l8 149t21
+80U14*ignition 12|154b14 168l11 168t19
+86U14*changeGearNeutral 12|171b14 183l8 183t25
+92U14*changeGearDrive 12|186b14 196l8 196t23
+98U14*changeGearReverse 12|199b14 210l8 210t25
+104U14*changeGearParked 12|213b14 224l8 224t24
+111U14*enterVehicleDiagMode 12|227b14 238l8 238t28
+117U14*exitVehicleDiagMode 12|242b14 253l8 253t27
+

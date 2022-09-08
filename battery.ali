@@ -1,0 +1,26 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U battery%b		battery.adb		402f0f11 NE OO PK
+
+U battery%s		battery.ads		7d2feff9 EE NE OO PK
+
+D battery.ads		20220503143718 7d2feff9 battery%s
+D battery.adb		20220503143714 3d00e0e8 battery%b
+D system.ads		20210520051136 2ffa5114 system%s
+G a e
+G c Z s b [checkchargelevel battery 6 13 none]
+X 1 battery.ads
+1K9*Battery 8l5 8e12 2|1b14 15l5 15t12
+3i4*chargelevel{integer}
+6V13*CheckChargeLevel{integer} 6>30 2|4b13 12t7
+6i30 Param{integer} 2|4b30 9r20
+X 2 battery.adb
+6i7 Result{integer} 9m10 10r17
+

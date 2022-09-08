@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project >
+    <file_marker column=" 40" line=" 90" >
+      <vfs_project>D:\GNAT\bin\CW2022\cw22.gpr</vfs_project>
+      <vfs_file>D:\GNAT\bin\CW2022\src\carassistance.ads</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 46" line=" 114" >
+      <vfs_project>D:\GNAT\bin\CW2022\cw22.gpr</vfs_project>
+      <vfs_file>D:\GNAT\bin\CW2022\src\carassistance.adb</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>
